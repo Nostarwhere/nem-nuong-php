@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "tailwind": "npx tailwindcss -i ./resources/css/app.css -o ./public/assets/css/output.css --watch"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
